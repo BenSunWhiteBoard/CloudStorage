@@ -65,14 +65,14 @@ public class CredentialController {
 
     }
 
-    @DeleteMapping("delete/{credentialid}")
+    @GetMapping("delete/{credentialid}")
     public String deleteCredential(@PathVariable Integer credentialid,Authentication authentication){
         String curUsername = authentication.getName();
         Integer curUserId = userService.getCurUserId(curUsername);
         if(credentialService.deleteCredential(curUserId,credentialid)){
             return "redirect:/result?success";
         }else{
-            return "redirect:/result?uploadError=credential not exists";
+            return "redirect:/result?inputError=credential not exists";
         }
     }
 

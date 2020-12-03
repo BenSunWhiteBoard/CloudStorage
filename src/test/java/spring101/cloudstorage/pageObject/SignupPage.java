@@ -32,19 +32,13 @@ public class SignupPage {
         PageFactory.initElements(webDriver,this);
     }
 
-    public boolean signUpForm(String firstname, String lastname, String username, String password) throws InterruptedException {
+    public void signUpForm(String firstname, String lastname, String username, String password) throws InterruptedException {
         inputFirstname.sendKeys(firstname);
         inputLastname.sendKeys(lastname);
         inputUsername.sendKeys(username);
         inputPassword.sendKeys(password);
         submitButton.click();
         Thread.sleep(1000);
-        if(signUpSuccessLink!=null){
-            signUpSuccessLink.click();
-            return true;
-        }else{
-            return false;
-        }
     }
 
     public void toLogin(){

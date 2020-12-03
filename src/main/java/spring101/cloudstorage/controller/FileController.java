@@ -27,14 +27,6 @@ public class FileController {
         this.userService = userService;
     }
 
-//    @GetMapping("")
-//    public String getPage(Authentication authentication, Model model) {
-//        String username = authentication.getName();
-//        Integer curUserId = userService.getCurUserId(username);
-//        model.addAttribute("uploadedFiles", fileService.selectAll(curUserId));
-//        return "home";
-//    }
-
     @PostMapping("upload")
     public String uploadFile(@RequestParam(name = "fileUpload") MultipartFile fileUpload, Authentication authentication) throws IOException {
         String username = authentication.getName();
@@ -63,18 +55,6 @@ public class FileController {
         }
     }
 
-//    @GetMapping("/view/{fileId}")
-//    public String viewFile(@PathVariable Integer fileId,Authentication authentication){
-//        String username = authentication.getName();
-//        Integer curUserId = userService.getCurUserId(username);
-//        File viewedFile = fileService.viewFile(fileId,curUserId);
-//        if(viewedFile!=null){
-//
-//            return "redirect:/result?success";
-//        }else{
-//            return "redirect:/result?uploadError=file not exists";
-//        }
-//    }
 
     @GetMapping("/download/{fileId}")
     public ResponseEntity<ByteArrayResource> downloadFile(@PathVariable Integer fileId, Authentication authentication){
@@ -91,11 +71,5 @@ public class FileController {
             return ResponseEntity.notFound().build();
         }
     }
-
-//    @ModelAttribute("imageType")
-//    public String imgType(){return "image/";}
-//
-//    @ModelAttribute("textType")
-//    public String textType(){return "text/";}
 
 }

@@ -35,7 +35,7 @@ public class HomeController {
             model.addAttribute("uploadedCredentials", credentialService.getAllCredentials(curUserId));
             model.addAttribute("uploadedNotes", noteService.getAllNotes(curUserId));
         } catch (Exception e) {
-            return "redirect:result?uploadError=Please log in first!";
+            return "redirect:result?notLogInError=Please log in first!";
         }
         return "home";
     }

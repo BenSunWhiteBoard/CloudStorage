@@ -10,28 +10,19 @@
       <change beforePath="$PROJECT_DIR$/cloudstorage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudstorage.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/controller/CredentialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/controller/CredentialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/controller/FileController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/model/Credential.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/model/Credential.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/model/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/model/File.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/model/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/CredentialController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/FileController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/NoteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/ResultController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/SignupController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/WhiteBoardErrorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/spring101/cloudstorage/CloudStorageApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/spring101/cloudstorage/CloudStorageApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/spring101/cloudstorage/pageObject/SignupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/spring101/cloudstorage/pageObject/SignupPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/CredentialController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/CredentialController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/FileController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/model/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/model/Note.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/service/CredentialService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/service/EncryptionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/service/FileService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/service/NoteService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/CloudStorageApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/pageObject/CredentialTabPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/pageObject/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/pageObject/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/pageObject/NoteTabPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/pageObject/ResultPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/pageObject/SignupPage.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,9 +68,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Spring Boot.CloudStorageApplication">
+  <component name="RunManager" selected="JUnit.CloudStorageApplicationTests">
     <configuration name="CloudStorageApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cloudstorage" />
       <extension name="coverage">
@@ -178,7 +169,8 @@
       <workItem from="1604923805102" duration="512000" />
       <workItem from="1605897234639" duration="2337000" />
       <workItem from="1606943625005" duration="2961000" />
-      <workItem from="1606992927657" duration="564000" />
+      <workItem from="1606992927657" duration="854000" />
+      <workItem from="1606993941028" duration="1139000" />
     </task>
     <servers />
   </component>
@@ -203,10 +195,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1600772217887" />
-    <state x="453" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1600434552281">
+    <state x="453" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1606994220132">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1600434552281" />
+    <state x="453" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1606994220132" />
     <state x="482" y="220" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1599823200409">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -219,58 +211,62 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="398" y="266" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1600256321646" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1606992831055">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1606994973540">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606992831055" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606994973540" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1599970869294" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1606992831054">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1606994973539">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606992831054" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606994973539" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1599970869293" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1606992831053">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1606994973538">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606992831053" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606994973538" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1599970869292" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1606992831054">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1606994973539">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606992831054" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606994973539" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1599970869293" />
-    <state width="1238" height="212" key="GridCell.Tab.1.bottom" timestamp="1606992831056">
+    <state width="1238" height="212" key="GridCell.Tab.1.bottom" timestamp="1606994973542">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606992831056" />
+    <state width="1238" height="212" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606994973542" />
     <state width="1238" height="212" key="GridCell.Tab.1.bottom/0.23.1280.713@0.23.1280.713" timestamp="1599970869298" />
     <state width="1238" height="264" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1600759535929" />
-    <state width="1238" height="212" key="GridCell.Tab.1.center" timestamp="1606992831055">
+    <state width="1238" height="212" key="GridCell.Tab.1.center" timestamp="1606994973541">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1606992831055" />
+    <state width="1238" height="212" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1606994973541" />
     <state width="1238" height="212" key="GridCell.Tab.1.center/0.23.1280.713@0.23.1280.713" timestamp="1599970869297" />
     <state width="1238" height="264" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1600759535928" />
-    <state width="1238" height="212" key="GridCell.Tab.1.left" timestamp="1606992831055">
+    <state width="1238" height="212" key="GridCell.Tab.1.left" timestamp="1606994973540">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1606992831055" />
+    <state width="1238" height="212" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1606994973540" />
     <state width="1238" height="212" key="GridCell.Tab.1.left/0.23.1280.713@0.23.1280.713" timestamp="1599970869295" />
     <state width="1238" height="264" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1600759535927" />
-    <state width="1238" height="212" key="GridCell.Tab.1.right" timestamp="1606992831056">
+    <state width="1238" height="212" key="GridCell.Tab.1.right" timestamp="1606994973541">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1606992831056" />
+    <state width="1238" height="212" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1606994973541" />
     <state width="1238" height="212" key="GridCell.Tab.1.right/0.23.1280.713@0.23.1280.713" timestamp="1599970869298" />
     <state width="1238" height="264" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1600759535929" />
     <state x="178" y="62" key="Maven.ArtifactSearchDialog" timestamp="1606993050767">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="178" y="62" key="Maven.ArtifactSearchDialog/0.0.1280.800@0.0.1280.800" timestamp="1606993050767" />
-    <state x="141" y="39" key="SettingsEditor" timestamp="1600863791835">
+    <state x="343" y="106" key="RollbackChangesDialog" timestamp="1606993714910">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1600863791835" />
+    <state x="343" y="106" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1606993714910" />
+    <state x="141" y="25" key="SettingsEditor" timestamp="1606993982150">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="141" y="25" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1606993982150" />
     <state x="392" y="133" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600402702946">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

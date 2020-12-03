@@ -64,13 +64,9 @@ class CloudStorageApplicationTests {
         String lastname = "sun";
         String username = "SunBen";
         String password = "#password#";
-        boolean signupSuccess = signupPage.signUpForm(firstname, lastname, username, password);
-        Assertions.assertEquals(true, signupSuccess);
-
+        signupPage.signUpForm(firstname, lastname, username, password);
         //login
         //driver.get("http://localhost:" + this.port + "/login");
-        wait.until(webDriver -> driver.findElement(By.name("loginButton")));
-        Thread.sleep(2000);
         LoginPage loginPage = new LoginPage(driver);
         loginPage.login(username, password);
         wait.until(webDriver -> driver.findElement(By.name("logoutButton")));
