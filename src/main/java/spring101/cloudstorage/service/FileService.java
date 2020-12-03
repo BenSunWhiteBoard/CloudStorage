@@ -21,7 +21,12 @@ public class FileService {
     }
 
     public Integer uploadFile(File file, Integer curUserId) {
-        return fileMapper.insert(new File(null, file.getFilename(), file.getContenttype(), file.getFilesize(), curUserId, file.getFiledata()));
+        if (fileMapper.selectByName(file.getFilename(), curUserId) != null) {
+            return -1;
+        }else{
+            return fileMapper.insert(new File(null, file.getFilename(), file.getContenttype(),
+                    file.getFilesize(), curUserId, file.getFiledata()));
+        }
     }
 
     public File viewFile(Integer fileId, Integer curUserId) {

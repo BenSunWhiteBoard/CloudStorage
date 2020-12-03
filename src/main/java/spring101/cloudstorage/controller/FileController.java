@@ -45,7 +45,10 @@ public class FileController {
         } catch (IOException e){
             return "redirect:/result?inputError" + e.getMessage();
         }
-        fileService.uploadFile(uploadFile, curUserId);
+        Integer fileId = fileService.uploadFile(uploadFile, curUserId);
+        if (fileId == -1){
+            return "redirect:/result?uploadError=file already exists! ";
+        }
         return "redirect:/result?success";
     }
 
