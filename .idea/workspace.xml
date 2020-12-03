@@ -5,11 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8864dce-b4f9-4894-bf27-e24a531df8e3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/controller/SignupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/controller/SignupController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudstorage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudstorage.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/controller/CredentialController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/controller/CredentialController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring101/cloudstorage/model/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/CredentialController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/FileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/NoteController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/ResultController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/SignupController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/controller/WhiteBoardErrorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/model/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/model/Note.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/service/CredentialService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/service/EncryptionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/service/FileService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/service/NoteService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring101/cloudstorage/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/CloudStorageApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/pageObject/CredentialTabPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/pageObject/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/pageObject/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/pageObject/NoteTabPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/pageObject/ResultPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/spring101/cloudstorage/pageObject/SignupPage.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +70,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -154,7 +177,8 @@
       <workItem from="1604150214352" duration="14000" />
       <workItem from="1604923805102" duration="512000" />
       <workItem from="1605897234639" duration="2337000" />
-      <workItem from="1606943625005" duration="2779000" />
+      <workItem from="1606943625005" duration="2961000" />
+      <workItem from="1606992927657" duration="564000" />
     </task>
     <servers />
   </component>
@@ -195,54 +219,54 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="398" y="266" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.800@0.0.1280.800" timestamp="1600256321646" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1606992593120">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1606992831055">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606992593120" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606992831055" />
     <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.23.1280.713@0.23.1280.713" timestamp="1599970869294" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1606992593118">
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1606992831054">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606992593118" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1606992831054" />
     <state width="1238" height="212" key="GridCell.Tab.0.center/0.23.1280.713@0.23.1280.713" timestamp="1599970869293" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1606992593118">
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1606992831053">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606992593118" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1606992831053" />
     <state width="1238" height="212" key="GridCell.Tab.0.left/0.23.1280.713@0.23.1280.713" timestamp="1599970869292" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1606992593119">
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1606992831054">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606992593119" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1606992831054" />
     <state width="1238" height="212" key="GridCell.Tab.0.right/0.23.1280.713@0.23.1280.713" timestamp="1599970869293" />
-    <state width="1238" height="212" key="GridCell.Tab.1.bottom" timestamp="1606992593122">
+    <state width="1238" height="212" key="GridCell.Tab.1.bottom" timestamp="1606992831056">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606992593122" />
+    <state width="1238" height="212" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1606992831056" />
     <state width="1238" height="212" key="GridCell.Tab.1.bottom/0.23.1280.713@0.23.1280.713" timestamp="1599970869298" />
     <state width="1238" height="264" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1600759535929" />
-    <state width="1238" height="212" key="GridCell.Tab.1.center" timestamp="1606992593121">
+    <state width="1238" height="212" key="GridCell.Tab.1.center" timestamp="1606992831055">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1606992593121" />
+    <state width="1238" height="212" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1606992831055" />
     <state width="1238" height="212" key="GridCell.Tab.1.center/0.23.1280.713@0.23.1280.713" timestamp="1599970869297" />
     <state width="1238" height="264" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1600759535928" />
-    <state width="1238" height="212" key="GridCell.Tab.1.left" timestamp="1606992593120">
+    <state width="1238" height="212" key="GridCell.Tab.1.left" timestamp="1606992831055">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1606992593120" />
+    <state width="1238" height="212" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1606992831055" />
     <state width="1238" height="212" key="GridCell.Tab.1.left/0.23.1280.713@0.23.1280.713" timestamp="1599970869295" />
     <state width="1238" height="264" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1600759535927" />
-    <state width="1238" height="212" key="GridCell.Tab.1.right" timestamp="1606992593121">
+    <state width="1238" height="212" key="GridCell.Tab.1.right" timestamp="1606992831056">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1606992593121" />
+    <state width="1238" height="212" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1606992831056" />
     <state width="1238" height="212" key="GridCell.Tab.1.right/0.23.1280.713@0.23.1280.713" timestamp="1599970869298" />
     <state width="1238" height="264" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1600759535929" />
-    <state x="178" y="62" key="Maven.ArtifactSearchDialog" timestamp="1599994719707">
+    <state x="178" y="62" key="Maven.ArtifactSearchDialog" timestamp="1606993050767">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="178" y="62" key="Maven.ArtifactSearchDialog/0.0.1280.800@0.0.1280.800" timestamp="1599994719707" />
+    <state x="178" y="62" key="Maven.ArtifactSearchDialog/0.0.1280.800@0.0.1280.800" timestamp="1606993050767" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1600863791835">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
